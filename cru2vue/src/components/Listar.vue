@@ -46,7 +46,7 @@
 		methods:{
 			//http://localhost/phpmyadmin/sql.php?server=1&db=microeco&table=concepto&pos=0
 			consultarConcepto(){
-				fetch('http://localhost/micro/index.php/clogin/test/')
+				fetch('/index.php/clogin/test/')
 				.then(respuesta=>respuesta.json())
 				.then((datosRespuesta)=>{
 
